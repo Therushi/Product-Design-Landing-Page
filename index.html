@@ -11,11 +11,11 @@
 
 </head>
 <body>
-    <div class="navbar flex items-center justify-around mt-4 ">
+    <div class="navbar md:flex md:items-center md:justify-around mt-4 ml-2">
         <div class="logo">
             <img src="./white-logo.png" alt="" width="100px">
         </div>
-        <div class="nav">
+        <div class="nav hidden md:block">
             <ul class="list flex gap-6">
                 <li>Home</li>
                 <li>Project</li>
@@ -25,80 +25,125 @@
             </ul>
         </div>
     </div>
-    <div class="w-screen flex items-center justify-center flex-wrap ">
+    <div class="w-screen flex items-center justify-center text-center md:text-left flex-wrap md:mb-8">
         <div><img src="./Untitled design (35).png" alt="" width="500px"></div>
-        <div>
-            <h4 class="text-sm text-red-600 font-semibold">Hello I'm Rushi</h4>
+        <div class="mt-5">
+            <h4 class="text-lg text-red-600 font-semibold">Hello I'm Rushi</h4>
             <h3 class="text-4xl font-semibold">Visual Designer</h3>
-            <p class="text-sm font-thin">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem itaque nulla asperiores enim sint </p>
+            <p class="text-md font-thin">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem itaque nulla asperiores enim sint </p>
             <button class="bg-red-600 py-2 px-4 text-white font-semibold text-sm mt-4">ABOUT ME</button>
         </div>
     </div>
-    <section class="card-ui">
-        <div class="flex justify-around mt-6 flex-wrap">
-            <div class="card w-48 px-4 py-6">
+    <section class="card-ui text-center md:mb-8 ">
+        <div class="flex md:justify-center justify-around gap-10 flex-wrap">
+            <div class="card w-50 px-4 py-6 border border-red-300 md:py-10">
                 <i class="fa fa-id-card-o fa-2x mb-2" aria-hidden="true"></i>
                 <h3 class="text-lg font-medium mb-2">UI Design</h3>
-                <p class="text-sm font-thin mb-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <p class="text-sm font-thin mb-2 w-40">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                 <h3 class="text-red-600 font-medium text-xs">KNOW MORE</h3>
             </div>
-            <div class="card w-48 py-6 px-4 bg-red-600">
+            <div class="card w-50 py-6 px-4 bg-red-600 md:py-10">
                 <i class="fa fa-address-book-o fa-2x mb-2 bg-red-600" aria-hidden="true"></i>
                 <h3 class="text-lg font-medium mb-2 bg-red-600">UI Design</h3>
-                <p class="text-sm font-thin mb-2 bg-red-600">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <p class="text-sm font-thin mb-2 bg-red-600 w-40">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                 <h3 class="text-white-600 font-medium text-xs bg-red-600">KNOW MORE</h3>
             </div>
-            <div class="card w-48 px-4 py-6">
+            <div class="card w-50 px-4 py-6 md:py-10 border border-red-300">
                 <i class="fa fa-bandcamp fa-2x mb-2" aria-hidden="true"></i>
                 <h3 class="text-lg font-medium mb-2">UI Design</h3>
-                <p class="text-sm font-thin mb-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <p class="text-sm font-thin mb-2 w-40">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                 <h3 class="text-red-600 font-medium text-xs">KNOW MORE</h3>
             </div>
         </div>
 
     </section>
-    <section class="exp">
+    <section class="exp mb-4">
         <div class="flex justify-around items-center flex-wrap">
-            <div >
-                <h3 class="text-6xl font-black text-red-600 text-center">12</h3>
-                <h2 class="text-lg font-medium text-center">Years Experience</h2>
+            <div class="w-40 mb-4">
+                <h3 class="exp-text text-6xl font-black text-red-600 text-center">12</h3>
+                <h2 class="text-2xl font-medium text-center">Years Experience</h2>
             </div>
             <div>
                 <div class="grid grid-cols-2 gap-x-8 gap-y-8">
                     <div >
-                        <h3 class="text-center font-bold text-3xl text-red-600 font-semibold">60+</h3>
-                        <h4 class="text-center text-xs font-thin">Clients</h4>
+                        <h3 class="text-center font-bold text-3xl text-red-600 md:text-5xl font-semibold">60+</h3>
+                        <h4 class="text-center text-xs md:text-xl md:font-medium font-thin">Clients</h4>
                     </div>
                     <div>
-                        <h3 class="text-center font-bold text-3xl text-red-600 font-semibold">08</h3>
-                        <h4 class="text-center text-xs font-thin">Years Experience</h4>
+                        <h3 class="text-center font-bold text-3xl text-red-600 md:text-5xl font-semibold">08</h3>
+                        <h4 class="text-center text-xs md:text-xl md:font-medium font-thin">Years Experience</h4>
                     </div>
                 </div>
                 <div class="grid grid-cols-2 gap-x-8 gap-y-8 mt-4">
                     <div >
-                        <h3 class="text-center font-bold text-3xl text-red-600 font-semibold">120+</h3>
-                        <h4 class="text-center text-xs font-thin">Completed Projects</h4>
+                        <h3 class="text-center font-bold text-3xl text-red-600 md:text-5xl font-semibold">120+</h3>
+                        <h4 class="text-center text-xs md:text-xl md:font-medium font-thin">Completed Projects</h4>
                     </div>
                     <div >
-                        <h3 class="text-center font-bold text-3xl text-red-600 font-semibold">10</h3>
-                        <h4 class="text-center text-xs font-thin">Achievements</h4>
+                        <h3 class="text-center font-bold text-3xl text-red-600 md:text-5xl font-semibold">10</h3>
+                        <h4 class="text-center text-xs md:text-xl md:font-medium font-thin">Achievements</h4>
                     </div>
                 </div>
             </div>
         </div>
 
     </section>
-    <section class="feature">
-        <div class="flex justify-around items-center flex-wrap">
+    <section class="feature md:mt-8 mb-4">
+        <div class="flex justify-around items-center flex-wrap text-center">
             <div>
-                <h3 class="text-lg font-bold ">FEATURED PROJECTS</h3>
-                <h4 class="text-xs font-thin">
+                <h3 class="text-3xl md:text-5xl font-bold ">FEATURED PROJECTS</h3>
+                <h4 class="text-sm md:text-xl font-thin">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </h4>
             </div>
-            <div>
+            <div class="w-40 mt-4">
                 <button class="bg-red-600 py-2 px-4 text-white text-xs">VIEW ALL</button>
             </div>
+        </div>
+    </section>
+    <section class="md:mt-8">
+        <div class="cards flex flex-wrap justify-center items-center gap-4 md:gap-10 text-center">
+            <div class="card">
+                <div> <img src="./Assests/Screenshot 2022-06-25 131915.jpg" alt=""></div>
+                <h3 class="mt-2">The Vintage</h3>
+                <h4 class="text-red-500">Know More</h4>
+            </div>
+            <div class="card">
+                <div> <img src="./Assests/Screenshot 2022-06-25 132031.jpg" alt=""></div>
+                <h3 class="mt-2">The Vintage</h3>
+                <h4 class="text-red-500">Know More</h4>
+            </div>
+            <div class="card">
+                <div> <img src="./Assests/Screenshot 2022-06-25 133016.jpg" alt=""></div>
+                <h3 class="mt-2">The Vintage</h3>
+                <h4 class="text-red-500">Know More</h4>
+            </div>
+            <div class="card">
+                <div> <img src="./Assests/Screenshot 2022-06-25 133426.jpg" alt=""></div>
+                <h3 class="mt-2">The Vintage</h3>
+                <h4 class="text-red-500">Know More</h4>
+            </div>
+        </div>
+    </section>
+    <section class="feature mt-4 md:mt-8">
+        <div class="flex justify-around items-center flex-wrap text-center">
+            <div>
+                <h3 class="text-3xl md:text-4xl font-bold ">Let's work together on your next project</h3>
+                <h4 class="text-sm font-thin md:text-lg">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ratione magnam soluta explicabo reiciendis! Iusto.
+                </h4>
+            </div>
+            <div class="w-40 mt-4">
+                <button class="bg-red-600 py-2 px-4 text-white text-xs md:text-lg ">Contact</button>
+            </div>
+        </div>
+    </section>
+    <section class="mt-3 md:mt-8 md:mb-4">
+        <div class="flex flex-row gap-2 md:gap-6 items-center justify-center">
+            <a class="md:text-2xl" href="#">Home</a>
+            <a class="md:text-2xl" href="#">About</a>
+            <a class="md:text-2xl" href="#">Projects</a>
+            <a class="md:text-2xl" href="#">Contact</a>
         </div>
     </section>
 </body>
